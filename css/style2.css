@@ -1,0 +1,90 @@
+
+main {
+    z-index: 3000;
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .landing {
+    min-height: 100vh;
+    background: url("./hero.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+    z-index: 3000;
+  }
+  nav {
+    display: flex  !important ;
+    align-items: center !important;
+    justify-content: space-between !important;
+    min-height: 10vh !important;
+    z-index: 3000 !important;
+  }
+  .nav-links {
+    display: flex;
+    z-index: 3000;
+    list-style: none;
+  }
+  .nav-links li {
+    padding-left: 10rem;
+    z-index: 3000;
+    font-size: 1.2rem;
+  }
+  #logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    z-index: 3000;
+  }
+  
+  .big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index: 3000;
+    font-size: 5rem;
+    font-family: "Lobster", cursive;
+    color: rgb(61, 61, 61);
+  }
+  
+  .intros {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+  }
+  .slider-first-itemo {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    z-index: 3000;
+  }
+  
+  .first_anim_text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    z-index: 3000;
+    font-size: 3rem;
+  }
+  
+  .hide_anim {
+    background: black;
+    overflow: hidden;
+    z-index: 3000;
+  }
+  
+  .hide_anim span {
+    transform: translateY(100%);
+    display: inline-block;
+    z-index: 3000;
+  }
+  
